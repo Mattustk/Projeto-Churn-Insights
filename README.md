@@ -1,2 +1,6 @@
+![Power BI](https://img.shields.io/badge/Amazon-S3-569A31?style=flat&logo=PowerBI)
+
+
+
 # Projeto-Churn-Insights
 **Insights Gerados a partir de um outro projeto focado em engenharia de dados (' https://github.com/Mattustk/Projeto-churn ')**
