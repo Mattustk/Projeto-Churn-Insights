@@ -1,26 +1,27 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Insights](https://img.shields.io/badge/Insights-007ACC?style=for-the-badge&logo=lightbulb&logoColor=white)
 
- **TODOS OS INSGIHTS AQUI FORAM COLETADOS DE UM PROJETO CRIADO POR MIM**
+**TODOS OS INSIGHTS AQUI FORAM COLETADOS DE UM PROJETO CRIADO POR MIM**
 ![Dashboard](Insight-Projeto-Churn.PNG)
 
+## 📊 Insights do Dashboard
 
-## 📊 Insights Dashboard
+A partir desse Dashboard, fica notório que a grande parcela de cancelamentos acontece devido ao método de pagamento via **boleto eletrônico**. Ao alterar alguns filtros e analisar as estatísticas, concluí que os dois métodos que mais agregam renda e estabilidade para a empresa são, em ordem: **Credit Card (Cartão de Crédito)** e **Bank Transfer (Transferência Bancária)**.
 
-**- A partir desse Dashboard fica notório que a grande parcela de cancelamentos acontece devido ao método de pagamento boleto eletrônico. Ao alterar alguns filtros e analisar as estatísticas, eu concluí que os dois métodos que mais agregam renda para a empresa são, em ordem, Credit Card (Cartão de Crédito) e bank transfer (Transferência Bancária).
-  De acordo com isso, eu adotaria uma política de bonificação para a transferência do método de pagamento de boleto bancário para os dois citados anteriormente, bonificações essas como descontos de 10%, extensão de contratos de streaming ou de linhas, ou parcerias com outras plataformas.**
-  **Observa-se que, além do boleto bancário, há outro problema: o contrato de mês a mês. A taxa de cancelamento em contratos curtos é extremamente maior do que nas opções contratuais de dois anos e um ano. É necessário tomar algumas medidas para resolver isso, como por exemplo descontos nas assinaturas de maiores intervalos de tempo ou melhores produtos para esses contratos.**
-  
-🛠 **Parte Técnica: Para visualizar o processo de limpeza de dados com Pandas, tratamento de nulos e os scripts de nuvem AWS que geraram a base para esta análise,**
-  https://github.com/Mattustk/Projeto-churn
+De acordo com isso, eu adotaria uma política de bonificação para incentivar a transferência do método de pagamento de boleto bancário para os dois citados anteriormente. Essas bonificações poderiam ser descontos de 10%, extensão de contratos de streaming/linhas, ou parcerias com outras plataformas.
 
-  
+Observa-se que, além do boleto bancário, há outro problema: **o contrato de mês a mês (Month-to-month)**. A taxa de cancelamento em contratos curtos é extremamente maior do que nas opções contratuais de um e dois anos. É necessário tomar medidas para resolver isso, como, por exemplo, oferecer descontos nas assinaturas de maiores intervalos de tempo ou embutir melhores produtos e benefícios nesses contratos mais longos.
 
-## 🥇 Insights Gold
-        *Insights feitos pela Freature "Gold"
-        
+🛠 **Parte Técnica:** Para visualizar o processo de limpeza de dados com Python (Pandas), tratamento de nulos e os scripts de nuvem AWS que geraram a base para esta análise, acesse:
+[Repositório do Projeto Churn](https://github.com/Mattustk/Projeto-churn)
 
-# DF Fidelidade em Markdown
+---
+
+## 🥇 Insights da Camada Gold
+*Insights gerados a partir do tratamento final dos dados (Feature Gold).*
+
+### 📅 DataFrame: Fidelidade e Contratos
+
 | | Contract | Churn | Total_Clientes | Media_Mensalidade | Faturamento_Total | Media_Meses_Fidelidade |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
 | 0 | **Month-to-month** | No | 2220 | 61.46 | 3.378.679,25 | 21.03 |
@@ -30,13 +31,9 @@
 | 4 | **Two year** | No | 1637 | 60.11 | 6.022.500,25 | 56.95 |
 | 5 | **Two year** | Yes | 48 | 86.78 | 260.753,45 | 61.27 |
 
+Como citado anteriormente, um dos maiores motivos dessa taxa de cancelamento está nos contratos **Month-to-month**. Observa-se que há **1.655 clientes** que cancelaram SOMENTE nesses contratos; isso representa **88% do total** de clientes perdidos. É uma necessidade de extrema urgência transformar esse modelo contratual, tornando os planos anuais mais abrangentes e atrativos para o público.
 
-
-Como citado anteriormente, um dos maiores motivos dessa taxa de cancelamento é o que está sendo mostrado na linha 2, nos contratos Month-to-month. Observa-se que há 1655 clientes que cancelaram SOMENTE nesses contratos; isso remete a 88% do total de clientes que cancelaram. É uma necessidade de extrema urgência transferir esse modelo contratual, tornando os outros mais abrangentes para o público.
-
-
-
-# DF Internet em Markdowm
+### 🌐 DataFrame: Serviço de Internet
 
 | | InternetService | Churn | Total_Clientes | Media_Mensalidade |
 | :--- | :--- | :--- | :---: | :---: |
@@ -45,10 +42,13 @@ Como citado anteriormente, um dos maiores motivos dessa taxa de cancelamento é 
 | 2 | **Fiber optic** | No | 1799 | 93.93 |
 | 3 | **Fiber optic** | **Yes** | **1297** | **88.13** |
 | 4 | No | No | 1407 | 21.13 |
-| 5 | No | Yes | 113 | 20.37  |
+| 5 | No | Yes | 113 | 20.37 |
 
-Aqui está mais um problema oculto e o principal deles: quem apenas olha o dashboard não consegue perceber que a fibra óptica, por mais lucrativa que seja, também é uma faca de dois gumes. Basta analisar as suas perdas: por mais que a fibra seja o serviço mais rentável da empresa, ela sozinha conseguiu causar um prejuízo de mais de 142 milhões de reais ao total, mais de 85% de toda a receita perdida pelo cancelamento da companhia. Isso acontece devido à falta de suporte e atendimento técnico aos consumidores que utilizam a fibra óptica
+Aqui está mais um problema oculto, e o principal deles: quem apenas olha o dashboard superficialmente não consegue perceber que a **Fibra Óptica**, por mais lucrativa que seja, também é uma **faca de dois gumes**. 
 
+Basta analisar as suas perdas: por mais que a fibra seja o serviço mais rentável da empresa, ela sozinha conseguiu causar um prejuízo de mais de **R$ 142 milhões** ao total — mais de **85% de toda a receita perdida** pelo cancelamento da companhia. Isso acontece devido à falta de suporte e atendimento técnico aos consumidores que utilizam a fibra óptica.
+
+### 💳 DataFrame: Métodos de Pagamento
 
 | | PaymentMethod | Churn | Total_Clientes | Media_Mensalidade | Faturamento_Total |
 | :--- | :--- | :--- | :---: | :---: | :---: |
@@ -61,13 +61,14 @@ Aqui está mais um problema oculto e o principal deles: quem apenas olha o dashb
 | 6 | Mailed check | No | 1304 | 41.40 | 1.411.332,60 |
 | 7 | Mailed check | Yes | 308 | 54.56 | 165.748,35 |
 
- Outro problema citado anteriormente o boleto bancario, olhando a tabela de pagamentos, o Electronic check (Boleto) é o que mais gera dinheiro, mas também é disparado o que mais perde. É bizarro: enquanto no Cartão de Crédito a gente perdeu uns 232 clientes, no boleto a gente teve um prejuízo de mais de 1071 cancelamentos. Isso causou um rombo de mais de R$ 2,3 milhões de reais que sumiram do faturamento.
+Outro problema grave, como analisado no dashboard, é o **boleto bancário**. Olhando a tabela de pagamentos, o *Electronic check (Boleto)* é o que mais gera dinheiro bruto, mas também é, disparado, o que mais perde. 
 
-Conclusçoes Finais: A análise revela um padrão crítico: o cliente contrata o serviço de Fibra Óptica via Boleto Bancário sob um modelo de assinatura Month-to-month (mensal). Quando esse serviço apresenta qualquer defeito técnico, a empresa falha em oferecer o suporte necessário.
+É bizarro: enquanto no Cartão de Crédito a gente perdeu cerca de **232 clientes**, no boleto nós tivemos um prejuízo de **1.071 cancelamentos**. Isso causou um rombo de mais de **R$ 2,3 milhões** que simplesmente sumiram do faturamento.
 
-Como o contrato é curto (sem fidelidade) e o pagamento exige uma ação manual do cliente (emissão do boleto), ele possui total liberdade, e incentivo, para cancelar o plano imediatamente ao enfrentar o primeiro problema.
+---
 
+### 🏁 Conclusões Finais
 
+A análise revela um padrão crítico: o cliente contrata o serviço de Fibra Óptica via Boleto Bancário sob um modelo de assinatura *Month-to-month* (mensal). Quando esse serviço apresenta qualquer defeito técnico, a empresa falha em oferecer o suporte necessário.
 
-
-
+Como o contrato é curto (sem fidelidade) e o pagamento exige uma ação manual do cliente (emissão e pagamento do boleto), ele possui total liberdade — e incentivo — para cancelar o plano imediatamente ao enfrentar o primeiro problema. Resolver o suporte técnico da fibra e incentivar a transição para pagamentos automáticos são os passos definitivos para estancar essa perda milionária.
