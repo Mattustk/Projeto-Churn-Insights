@@ -3,6 +3,10 @@
 
  **TODOS OS INSGIHTS AQUI FORAM COLETADOS DE UM PROJETO CRIADO POR MIM**
 
+
+![Dashboard de Churn](C:\Users\n3kot\Pictures\Insight-Projeto-Churn.PNG)
+
+
 ## 📊 Insights
 
 **- A partir desse Dashboard fica notório que a grande parcela de cancelamentos acontece devido ao método de pagamento boleto eletrônico. Ao alterar alguns filtros e analisar as estatísticas, eu concluí que os dois métodos que mais agregam renda para a empresa são, em ordem, Credit Card (Cartão de Crédito) e bank transfer (Transferência Bancária).
