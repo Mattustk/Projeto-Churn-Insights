@@ -1,4 +1,4 @@
-![Power BI](https://img.shields.io/badge/Power-Bi569A31?style=flat&logo=PowerBI)
+![Power-BI](https://img.shields.io/badge/Power-Bi569A31?style=flat&logo=Power-BI)
 
 
 
