@@ -2,7 +2,7 @@
 ![Insights](https://img.shields.io/badge/Insights-007ACC?style=for-the-badge&logo=lightbulb&logoColor=white)
 
  **TODOS OS INSGIHTS AQUI FORAM COLETADOS DE UM PROJETO CRIADO POR MIM**
-![Dashboard](Insights-Projeto-Churn.PNG)
+![Dashboard](Insight-Projeto-Churn.PNG)
 
 
 
