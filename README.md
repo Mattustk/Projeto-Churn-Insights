@@ -6,7 +6,7 @@
 
 ## 📊 Insights do Dashboard
 
-A partir desse Dashboard, fica notório que a grande parcela de cancelamentos acontece devido ao método de pagamento via **boleto eletrônico**. Ao alterar alguns filtros e analisar as estatísticas, concluí que os dois métodos que mais agregam renda e estabilidade para a empresa são, em ordem: **Credit Card (Cartão de Crédito)** e **Bank Transfer (Transferência Bancária)**.
+A partir desse Dashboard, fica notório que a grande parcela de cancelamentos acontece devido ao método de pagamento via **boleto eletrônico**. Ao alterar alguns filtros e analisar as estatísticas, concluí que os dois métodos que mais agregam renda e estabilidade para a empresa são: **Credit Card (Cartão de Crédito)** e **Bank Transfer (Transferência Bancária)**.
 
 De acordo com isso, eu adotaria uma política de bonificação para incentivar a transferência do método de pagamento de boleto bancário para os dois citados anteriormente. Essas bonificações poderiam ser descontos de 10%, extensão de contratos de streaming/linhas, ou parcerias com outras plataformas.
 
