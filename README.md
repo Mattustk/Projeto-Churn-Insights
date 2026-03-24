@@ -1,7 +1,8 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Insights](https://img.shields.io/badge/Insights-007ACC?style=for-the-badge&logo=lightbulb&logoColor=white)
 
- **TODOS OS INSGIHTS AQUI FORAM COLETADOS DE UM PROJETO CRIADO POR MIM ' https://github.com/Mattustk/Projeto-churn '**
+ **TODOS OS INSGIHTS AQUI FORAM COLETADOS DE UM PROJETO CRIADO POR MIM
+ ' https://github.com/Mattustk/Projeto-churn '**
 
 ## 📊 Insights
 
