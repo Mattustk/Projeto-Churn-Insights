@@ -4,7 +4,6 @@
  **TODOS OS INSGIHTS AQUI FORAM COLETADOS DE UM PROJETO CRIADO POR MIM**
 
 
-![Dashboard de Churn](C:\Users\n3kot\Pictures\Insight-Projeto-Churn.PNG)
 
 
 ## 📊 Insights
