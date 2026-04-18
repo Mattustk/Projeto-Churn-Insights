@@ -3,24 +3,6 @@
 
 
 
-## 🧠 Por que este projeto tem análise de dados?
-
-Meu foco principal é 100% em **engenharia de dados**, mas entendo que um pipeline só tem valor se ele entrega **o que o negócio precisa**.
-
-Por isso, além de construir o pipeline (bronze/silver/gold, AWS Glue, Spark), eu me coloquei no lugar do **time de análise**. Fiz análises exploratórias para entender:
-
-- Quais métricas realmente importam para o negócio
-- Como os dados se comportam antes da modelagem
-- Quais tratamentos são essenciais para gerar insights confiáveis
-
-Essa visão me ajudou a:
-- Priorizar tratamentos mais críticos
-- Escolher as agregações que fazem sentido
-- Documentar o pipeline pensando em quem vai consumir os dados
-
-**Conclusão:** quem só faz código cria pipelines vazios. Um engenheiro de dados cria pipelines que o time de análise realmente precisa.
-
-
 ![Dashboard](Insight-Projeto-Churn.PNG)
 
 ## 📊 Insights do Dashboard
